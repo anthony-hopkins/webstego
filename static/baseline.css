@@ -1,0 +1,93 @@
+.baseline {
+    background-color: black;
+    color: darkgray;
+    text-align: center;
+}
+                
+.containerBaseline {
+    /*Location properties for this container*/
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /*Container properties*/
+    font-size: medium;
+    color: darkgray;
+    border-style: dotted;
+    min-width: 460px;
+}
+                
+.containerImport {
+    /*Location properties for this container*/
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /*Container properties*/
+    font-size: medium;
+    color: darkgray;
+    border-style: dotted;
+    height: auto;
+    min-width: 460px;
+    text-align: center;
+    }
+                
+.containerOutput {
+    /*Location properties for this container*/
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /*Container properties*/
+    font-size: medium;
+    color: darkgray;
+    border-style: dotted;
+    height: auto;
+    min-width: 460px;
+    text-align: center;
+}
+                
+.title {
+    font-size: xx-large;
+    color: darkgray;
+}
+                
+.importButton {
+    background-color: transparent;
+    border-style: solid;
+    border-color: darkgray;
+    font-size: large;
+    color: darkgray;
+    position: relative;
+    height: 32px;
+    width: 131px;
+}
+                
+.runStego {
+    /*Location properties for this container*/
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /*Container properties*/
+    background-color: black;
+    color: darkgray;
+    text-align: left;
+    font-size: medium;
+    border-style: dotted;
+    min-width: 460px;
+}

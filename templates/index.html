@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/baseline.css">
+        <body class=baseline>
+            <div class=title>
+                <p>AELabs Stego Toolkit</p>
+            </div>
+            <div class=containerBaseline>
+                <p>This toolkit is designed to "test" stego and should not be used for malicious purposes!</p>
+            </div>
+            <div class=containerImport>
+                <p>Please select an image file (jpg/png only) to analyze: </p>
+                <form action ="/success" method ="post" enctype="multipart/form-data">  
+                    <input type="file" name="image" />  
+                    <input type ="submit" value="Upload">
+                </form>  
+                <p></p>
+            </div>
+            <div class=containerOutput>
+                <p>{{ output }} has been uploaded</p>
+            </div>
+        </body>
+    </head>
+</html>

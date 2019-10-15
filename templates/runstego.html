@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/runstego.css">
+        <body class=runStego>
+            <div class=title>
+                <p>AELabs Stego Toolkit</p>
+            </div>
+            <div class=containerBaseline>
+                <p>This toolkit is designed to "test" stego and should not be used for malicious purposes!</p>
+            </div>
+            <div class=runstego>
+                <p>Analyze or go Home!</p>
+                <form action="/runstego" method="post">
+                    <button name="stegoBtn" type="submit">{{ filename }}</button>
+                </form>
+                <p></p>
+                <form action="/">
+                    <button type="submit">Home</button>
+                </form>
+                <p></p>
+            </div>
+            <div class=runSte>
+                {% for line in output %}
+                    <p>{{ line }}</p>
+                {% endfor %}
+            </div>
+        </body>
+    </head>
+</html>
